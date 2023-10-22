@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拳皇游戏</title>
+    <link rel="icon" href="/拳皇/image/头像.jpg">
+    <link rel="stylesheet" href="/拳皇/css/base.css">
+    <script src="https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div id = "kof"></div>
+
+    <div class="kof-head">
+        <div class="kof-head-hp-0"><div></div></div>
+        <div class="kof-head-timer">60</div>
+        <div class="kof-head-hp-1"><div></div></div>
+    </div>
+
+    <script type="module">
+        import {KOF} from '/拳皇/js/base.js';
+
+        let kof = new KOF('kof');
+
+    </script>
+</body>
+</html>
